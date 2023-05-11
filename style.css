@@ -1,0 +1,59 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+/* Heading styles */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Paragraph styles */
+p {
+  color: blue;
+}
+
+/* Override paragraph color for specific paragraphs */
+p:first-of-type {
+  color: red;
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+}
+
+/* Button styles */
+button {
+  background-color: #ccc;
+  color: #333;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #999;
+}
+
+/* Image styles */
+img {
+  max-width: 100%;
+}
+
+/* Optional styles for the downloaded files */
+a[download] {
+  display: inline-block;
+  margin-top: 10px;
+}
