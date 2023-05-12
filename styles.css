@@ -20,7 +20,7 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center; /* Center the container horizontally */
   width: 80%;
   max-width: 1200px;
 }
