@@ -31,10 +31,6 @@ body {
   padding: 20px;
 }
 
-.content-column {
-  flex-basis: 50%;
-}
-
 /* Heading styles */
 h2 {
   font-size: 36px;
