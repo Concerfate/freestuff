@@ -17,44 +17,11 @@ body {
   min-height: 100vh;
 }
 
-/* Header styles */
-header {
-  background-color: black;
-  padding: 20px;
-  text-align: center;
-}
-
+/* Heading styles */
 h2 {
   font-size: 36px;
   font-weight: bold;
   color: white;
-}
-
-/* Navigation styles */
-nav {
-  background-color: black;
-  color: white;
-  padding: 10px;
-  text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-nav ul li {
-  margin: 10px 0;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-/* Main content styles */
-main {
-  background-color: black;
-  padding: 20px;
   text-align: center;
 }
 
@@ -73,7 +40,7 @@ p:first-of-type {
 /* Button styles */
 .button-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 10px;
   margin-top: 20px;
 }
@@ -90,14 +57,8 @@ button:hover {
   background-color: #444;
 }
 
-/* Footer styles */
-footer {
-  background-color: black;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-footer p {
-  margin-bottom: 10px;
+/* Optional styles for the downloaded files */
+a[download] {
+  display: inline-block;
+  margin-top: 10px;
 }
