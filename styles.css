@@ -19,7 +19,8 @@ body {
 
 .container {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: center; /* Center the container horizontally */
   width: 80%;
   max-width: 1200px;
 }
@@ -29,10 +30,6 @@ body {
   flex-basis: 25%;
   background-color: red;
   padding: 20px;
-}
-
-.content-column {
-  flex-basis: 50%;
 }
 
 /* Heading styles */
@@ -80,9 +77,4 @@ button:hover {
 a[download] {
   display: inline-block;
   margin-top: 10px;
-}
-
-/* Additional CSS */
-.right-column {
-  align-self: center; /* Align the right column to the center */
 }
