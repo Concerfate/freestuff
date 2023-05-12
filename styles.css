@@ -19,8 +19,7 @@ body {
 
 .container {
   display: flex;
-  flex-direction: row;
-  justify-content: center; /* Center the container horizontally */
+  justify-content: center;
   width: 80%;
   max-width: 1200px;
 }
@@ -53,14 +52,6 @@ p:first-of-type {
 }
 
 /* Button styles */
-.button-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px;
-  margin-top: 20px;
-  justify-items: center;
-}
-
 button {
   background-color: blue;
   color: white;
