@@ -28,7 +28,7 @@ body {
 .left-column,
 .right-column {
   flex-basis: 25%;
-  background-color: darkred;
+  background-color: red;
   padding: 20px;
 }
 
